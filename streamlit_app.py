@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
 import re
-import pickle
 import tensorflow as tf
-import pandas as pd
 
 model = tf.keras.models.load_model('toxic-comment-classification.keras')
 
