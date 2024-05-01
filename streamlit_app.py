@@ -15,7 +15,7 @@ def load_model():
         vectorize.load_assets(".")
         return model, vectorize
     except:
-        return load_model
+        return load_model()
 
 
 def predict(input_text):
